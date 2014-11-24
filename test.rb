@@ -1,7 +1,10 @@
 require 'pp'
 pp require 'docker'
 
-pp Docker::Image.all()
-
+cimages =  Docker::Image.all()
+cimages.each{|image|
+          pp image
+          pp image.info
+          }
 
 

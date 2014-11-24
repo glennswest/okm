@@ -47,4 +47,9 @@ gem 'sass-rails', github: 'rails/sass-rails'
 gem 'ransack', github: 'activerecord-hackery/ransack'
 
 # docker-api
+gem 'docker'
 gem 'docker-api', :require => 'docker'
+
+gem "delayed_job"
+gem "delayed_job_active_record"
+gem "daemons"
